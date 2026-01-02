@@ -26,3 +26,4 @@ const Alert = ({ type = 'info', message, onClose }) => {
 
 export default Alert;
 
+
