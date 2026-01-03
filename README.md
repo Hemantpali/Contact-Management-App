@@ -72,13 +72,8 @@ Create a `.env` file in the `backend` directory:
 
 ```env
 PORT=5000
-MONGODB_URI=mongodb+srv://yourusername:yourpassword@cluster0.xxxxx.mongodb.net/contactmanagement?retryWrites=true&w=majority
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
 ```
-
-**Important**: Replace:
-- `yourusername` with your MongoDB Atlas database username
-- `yourpassword` with your MongoDB Atlas database password
-- `cluster0.xxxxx` with your actual cluster address
 
 Start the backend server:
 ```bash
